@@ -1,0 +1,24 @@
+*** SPECIFICATIONS ***
+
+SOFTWARE VERSIONS:
+
+--mafft 7.475 EXCEPT with T-coffee - ONLY 7.407 works in order to use -method mafftlinsi_msa (took me 8 hours of debugging to figure this out.)
+--clustalo 1.2.4
+--T-coffee 13.45.57.844f401
+--MAGUS: https://github.com/vlasmirnov/MAGUS
+--FastTree 2.1.10 (used with MAGUS)
+--hmmer 3.3.2 (used with MAGUS)
+
+COMMANDS:
+
+--T-coffee regressive with default settings: t_coffee -seq in.fasta -reg
+--T-coffee regressive with mafft-linsi on subsets: t_coffee -seq in.fasta -method mafftlinsi_msa -outfile out.fasta -reg -thread 
+--T-coffee regressive with mafft-linsi and subsetsize parameter set: t_coffee -seq in.fasta -nseq $NUM -method mafftlinsi_msa -outfile out.fasta -reg -thread 0
+
+--MAGUS modules: mafft 7.475, clustalo 1.2.4
+--MAGUS default: python3.8 ../../MAGUS/magus.py -d magus_outputs -i R0.in.fasta -o R0.magus.aln.fasta
+--MAGUS subsets: python3.8 ../../MAGUS/magus.py --maxnumsubsets 1000 --maxsubsetsize $NUM -i in.fasta -o out.fasta
+
+--MAFFT: mafft-linsi --thread -1 R0.in.fasta > R0.mafft.aln.fasta
+
+--clustalo: clustalo -i R0.in.fasta -o R0.clustalo.aln.fasta
