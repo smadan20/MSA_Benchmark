@@ -1,0 +1,11 @@
+*** EXPLANATION OF FILES IN DIRECTORY ***
+
+--del_dirs.sh: delete additional datasets not being used
+--remove_gaps.sh: remove GAPS in FASTA files to unalign them
+--*_swarm.sh: submit SWARM job
+--*.swarm: swarm file containing SWARM jobs
+--make-swarmfile.sh: create a swarmfile
+--make-fastree.sh: make a swarmfile for tree estimation
+--run_methods.sh: run .swarm.sh files FOR MULTIPLE DATSETS AND METHODS
+--generate_statistics*.py: analyze error/accuracy output files
+--comp_error.sh: run FastSP on output alignments
