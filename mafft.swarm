@@ -1,0 +1,10 @@
+cd R0; mafft-linsi --thread -1 R0.in.fasta > R0.mafft.aln.fasta
+cd R1; mafft-linsi --thread -1 R1.in.fasta > R1.mafft.aln.fasta
+cd R2; mafft-linsi --thread -1 R2.in.fasta > R2.mafft.aln.fasta
+cd R3; mafft-linsi --thread -1 R3.in.fasta > R3.mafft.aln.fasta
+cd R4; mafft-linsi --thread -1 R4.in.fasta > R4.mafft.aln.fasta
+cd R5; mafft-linsi --thread -1 R5.in.fasta > R5.mafft.aln.fasta
+cd R6; mafft-linsi --thread -1 R6.in.fasta > R6.mafft.aln.fasta
+cd R7; mafft-linsi --thread -1 R7.in.fasta > R7.mafft.aln.fasta
+cd R8; mafft-linsi --thread -1 R8.in.fasta > R8.mafft.aln.fasta
+cd R9; mafft-linsi --thread -1 R9.in.fasta > R9.mafft.aln.fasta

@@ -1,0 +1,10 @@
+cd R0; python ../../MAGUS/magus.py -d magus_outputs -i R0.in.fasta -o R0.magus.aln.fasta
+cd R1; python ../../MAGUS/magus.py -d magus_outputs -i R1.in.fasta -o R1.magus.aln.fasta
+cd R2; python ../../MAGUS/magus.py -d magus_outputs -i R2.in.fasta -o R2.magus.aln.fasta
+cd R3; python ../../MAGUS/magus.py -d magus_outputs -i R3.in.fasta -o R3.magus.aln.fasta
+cd R4; python ../../MAGUS/magus.py -d magus_outputs -i R4.in.fasta -o R4.magus.aln.fasta
+cd R5; python ../../MAGUS/magus.py -d magus_outputs -i R5.in.fasta -o R5.magus.aln.fasta
+cd R6; python ../../MAGUS/magus.py -d magus_outputs -i R6.in.fasta -o R6.magus.aln.fasta
+cd R7; python ../../MAGUS/magus.py -d magus_outputs -i R7.in.fasta -o R7.magus.aln.fasta
+cd R8; python ../../MAGUS/magus.py -d magus_outputs -i R8.in.fasta -o R8.magus.aln.fasta
+cd R9; python ../../MAGUS/magus.py -d magus_outputs -i R9.in.fasta -o R9.magus.aln.fasta

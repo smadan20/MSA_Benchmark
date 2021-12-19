@@ -1,0 +1,10 @@
+cd R0; python ../../MAGUS/magus.py -d R0.100.dir --maxnumsubsets 1000 --maxsubsetsize 100 -i R0.in.fasta -o ../experiment2/R0.magus.100.fasta
+cd R1; python ../../MAGUS/magus.py -d R1.100.dir --maxnumsubsets 1000 --maxsubsetsize 100 -i R1.in.fasta -o ../experiment2/R1.magus.100.fasta
+cd R2; python ../../MAGUS/magus.py -d R2.100.dir --maxnumsubsets 1000 --maxsubsetsize 100 -i R2.in.fasta -o ../experiment2/R2.magus.100.fasta
+cd R3; python ../../MAGUS/magus.py -d R3.100.dir --maxnumsubsets 1000 --maxsubsetsize 100 -i R3.in.fasta -o ../experiment2/R3.magus.100.fasta
+cd R4; python ../../MAGUS/magus.py -d R4.100.dir --maxnumsubsets 1000 --maxsubsetsize 100 -i R4.in.fasta -o ../experiment2/R4.magus.100.fasta
+cd R5; python ../../MAGUS/magus.py -d R5.100.dir --maxnumsubsets 1000 --maxsubsetsize 100 -i R5.in.fasta -o ../experiment2/R5.magus.100.fasta
+cd R6; python ../../MAGUS/magus.py -d R6.100.dir --maxnumsubsets 1000 --maxsubsetsize 100 -i R6.in.fasta -o ../experiment2/R6.magus.100.fasta
+cd R7; python ../../MAGUS/magus.py -d R7.100.dir --maxnumsubsets 1000 --maxsubsetsize 100 -i R7.in.fasta -o ../experiment2/R7.magus.100.fasta
+cd R8; python ../../MAGUS/magus.py -d R8.100.dir --maxnumsubsets 1000 --maxsubsetsize 100 -i R8.in.fasta -o ../experiment2/R8.magus.100.fasta
+cd R9; python ../../MAGUS/magus.py -d R9.100.dir --maxnumsubsets 1000 --maxsubsetsize 100 -i R9.in.fasta -o ../experiment2/R9.magus.100.fasta

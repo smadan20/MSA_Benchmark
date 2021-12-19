@@ -1,0 +1,11 @@
+cd R0; .././t_coffee -seq R0.in.fasta -reg
+cd R1; .././t_coffee -seq R1.in.fasta -reg
+cd R2; .././t_coffee -seq R2.in.fasta -reg
+cd R3; .././t_coffee -seq R3.in.fasta -reg
+cd R4; .././t_coffee -seq R4.in.fasta -reg
+cd R5; .././t_coffee -seq R5.in.fasta -reg
+cd R6; .././t_coffee -seq R6.in.fasta -reg
+cd R7; .././t_coffee -seq R7.in.fasta -reg
+cd R8; .././t_coffee -seq R8.in.fasta -reg
+cd R9; .././t_coffee -seq R9.in.fasta -reg
+

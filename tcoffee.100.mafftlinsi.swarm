@@ -1,0 +1,10 @@
+cd R0; t_coffee -seq R0.in.fasta -nseq 100 -tree fastparttree -method mafftlinsi_msa -outfile ../experiment2/R0.RTL.100.fasta -reg -thread 0
+cd R1; t_coffee -seq R1.in.fasta -nseq 100 -tree fastparttree -method mafftlinsi_msa -outfile ../experiment2/R1.RTL.100.fasta -reg -thread 0
+cd R2; t_coffee -seq R2.in.fasta -nseq 100 -tree fastparttree -method mafftlinsi_msa -outfile ../experiment2/R2.RTL.100.fasta -reg -thread 0
+cd R3; t_coffee -seq R3.in.fasta -nseq 100 -tree fastparttree -method mafftlinsi_msa -outfile ../experiment2/R3.RTL.100.fasta -reg -thread 0
+cd R4; t_coffee -seq R4.in.fasta -nseq 100 -tree fastparttree -method mafftlinsi_msa -outfile ../experiment2/R4.RTL.100.fasta -reg -thread 0
+cd R5; t_coffee -seq R5.in.fasta -nseq 100 -tree fastparttree -method mafftlinsi_msa -outfile ../experiment2/R5.RTL.100.fasta -reg -thread 0
+cd R6; t_coffee -seq R6.in.fasta -nseq 100 -tree fastparttree -method mafftlinsi_msa -outfile ../experiment2/R6.RTL.100.fasta -reg -thread 0
+cd R7; t_coffee -seq R7.in.fasta -nseq 100 -tree fastparttree -method mafftlinsi_msa -outfile ../experiment2/R7.RTL.100.fasta -reg -thread 0
+cd R8; t_coffee -seq R8.in.fasta -nseq 100 -tree fastparttree -method mafftlinsi_msa -outfile ../experiment2/R8.RTL.100.fasta -reg -thread 0
+cd R9; t_coffee -seq R9.in.fasta -nseq 100 -tree fastparttree -method mafftlinsi_msa -outfile ../experiment2/R9.RTL.100.fasta -reg -thread 0

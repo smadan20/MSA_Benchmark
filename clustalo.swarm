@@ -1,0 +1,10 @@
+cd R0; clustalo -i R0.in.fasta -o R0.clustalo.aln.fasta
+cd R1; clustalo -i R1.in.fasta -o R1.clustalo.aln.fasta
+cd R2; clustalo -i R2.in.fasta -o R2.clustalo.aln.fasta
+cd R3; clustalo -i R3.in.fasta -o R3.clustalo.aln.fasta
+cd R4; clustalo -i R4.in.fasta -o R4.clustalo.aln.fasta
+cd R5; clustalo -i R5.in.fasta -o R5.clustalo.aln.fasta
+cd R6; clustalo -i R6.in.fasta -o R6.clustalo.aln.fasta
+cd R7; clustalo -i R7.in.fasta -o R7.clustalo.aln.fasta
+cd R8; clustalo -i R8.in.fasta -o R8.clustalo.aln.fasta
+cd R9; clustalo -i R9.in.fasta -o R9.clustalo.aln.fasta

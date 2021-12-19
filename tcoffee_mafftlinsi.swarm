@@ -1,0 +1,10 @@
+cd R0; t_coffee -seq R0.in.fasta -method mafftlinsi_msa -outfile R0.RTL.mafft.aln.fasta -reg -thread 0
+cd R1; t_coffee -seq R1.in.fasta -method mafftlinsi_msa -outfile R1.RTL.mafft.aln.fasta -reg -thread 0
+cd R2; t_coffee -seq R2.in.fasta -method mafftlinsi_msa -outfile R2.RTL.mafft.aln.fasta -reg -thread 0
+cd R3; t_coffee -seq R3.in.fasta -method mafftlinsi_msa -outfile R3.RTL.mafft.aln.fasta -reg -thread 0
+cd R4; t_coffee -seq R4.in.fasta -method mafftlinsi_msa -outfile R4.RTL.mafft.aln.fasta -reg -thread 0
+cd R5; t_coffee -seq R5.in.fasta -method mafftlinsi_msa -outfile R5.RTL.mafft.aln.fasta -reg -thread 0
+cd R6; t_coffee -seq R6.in.fasta -method mafftlinsi_msa -outfile R6.RTL.mafft.aln.fasta -reg -thread 0
+cd R7; t_coffee -seq R7.in.fasta -method mafftlinsi_msa -outfile R7.RTL.mafft.aln.fasta -reg -thread 0
+cd R8; t_coffee -seq R8.in.fasta -method mafftlinsi_msa -outfile R8.RTL.mafft.aln.fasta -reg -thread 0
+cd R9; t_coffee -seq R9.in.fasta -method mafftlinsi_msa -outfile R9.RTL.mafft.aln.fasta -reg -thread 0
