@@ -2,7 +2,7 @@
 
 SOFTWARE VERSIONS:
 
---mafft 7.475 EXCEPT with T-coffee - ONLY 7.407 works in order to use -method mafftlinsi_msa (took me 8 hours of debugging to figure this out.)
+--mafft 7.475 EXCEPT with T-coffee - ONLY 7.407 works in order to use -method mafftlinsi_msa
 --clustalo 1.2.4
 --T-coffee 13.45.57.844f401
 --MAGUS: https://github.com/vlasmirnov/MAGUS
